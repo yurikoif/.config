@@ -47,7 +47,7 @@
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
-                                            "keyboard_fn"
+                                            "fn"
                                         ]
                                     }
                                 ],
@@ -82,7 +82,7 @@
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
-                                            "keyboard_fn"
+                                            "fn"
                                         ]
                                     }
                                 ],
@@ -117,7 +117,7 @@
                                     {
                                         "key_code": "up_arrow",
                                         "modifiers": [
-                                            "keyboard_fn"
+                                            "fn"
                                         ]
                                     }
                                 ],
@@ -152,7 +152,7 @@
                                     {
                                         "key_code": "down_arrow",
                                         "modifiers": [
-                                            "keyboard_fn"
+                                            "fn"
                                         ]
                                     }
                                 ],
@@ -1903,6 +1903,16 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "fn"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "left_control"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "grave_accent_and_tilde"
                             },
                             "to": [
@@ -1913,21 +1923,11 @@
                         },
                         {
                             "from": {
-                                "key_code": "keyboard_fn"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "left_control"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "left_control"
                             },
                             "to": [
                                 {
-                                    "key_code": "keyboard_fn"
+                                    "key_code": "fn"
                                 }
                             ]
                         },
