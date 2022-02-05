@@ -877,22 +877,6 @@
                         ]
                     },
                     {
-                        "description": "Win",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "command"
-                                },
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "launchpad"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "A (Ctrl)",
                         "manipulators": [
                             {
