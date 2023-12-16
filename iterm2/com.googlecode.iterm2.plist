@@ -6,6 +6,8 @@
 	<true/>
 	<key>AboutToPasteTabsWithCancel_selection</key>
 	<integer>0</integer>
+	<key>AllowClipboardAccess</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
 	<key>AutoHideTmuxClientSession</key>
@@ -805,7 +807,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Transparency</key>
-			<real>0.1454870345744681</real>
+			<real>0.31398603723404256</real>
 			<key>Unicode Version</key>
 			<integer>9</integer>
 			<key>Unlimited Scrollback</key>
@@ -829,6 +831,8 @@
 		</dict>
 	</array>
 	<key>OpenArrangementAtStartup</key>
+	<false/>
+	<key>OpenBookmark</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
