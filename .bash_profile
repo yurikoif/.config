@@ -12,6 +12,7 @@ export PS1="[\d \t] \u:\w$ "
 export PATH=/opt/homebrew/bin/:$PATH
 export GREP_OPTIONS='--color=always'
 export GREP_COLOR='1;35;40'
+export HISTTIMEFORMAT="%F %T "
 
 alias vi=vim
 
