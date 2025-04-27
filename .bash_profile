@@ -1,3 +1,6 @@
+## this file does not work if not copied to ~/ in macos.
+## it is saved here for referential purposes.
+
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 bind '"\e[1;5C": forward-word'
