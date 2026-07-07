@@ -351,7 +351,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string>bash --login</string>
+			<string>/opt/homebrew/bin/bash --login</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
